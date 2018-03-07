@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4081E8B3-34CA-448B-85F2-43E258A2DE22}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lernwelt.SharePoint.Web</RootNamespace>
+    <AssemblyName>Lernwelt.SharePoint.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Server">
+      <HintPath>..\Dlls\Microsoft.Office.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint">
+      <HintPath>..\Dlls\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Portal">
+      <HintPath>..\Dlls\Microsoft.SharePoint.Portal.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Publishing">
+      <HintPath>..\Dlls\Microsoft.SharePoint.Publishing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Taxonomy">
+      <HintPath>..\Dlls\Microsoft.SharePoint.Taxonomy.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiControl.ascx.cs">
+      <DependentUpon>WikiControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiControl.ascx.designer.cs">
+      <DependentUpon>WikiControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiPropertyControl.ascx.cs">
+      <DependentUpon>WikiPropertyControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiPropertyControl.ascx.designer.cs">
+      <DependentUpon>WikiPropertyControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\FaqControl.ascx.cs">
+      <DependentUpon>FaqControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\FaqControl.ascx.designer.cs">
+      <DependentUpon>FaqControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\FaqPropertyControl.ascx.cs">
+      <DependentUpon>FaqPropertyControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\FaqPropertyControl.ascx.designer.cs">
+      <DependentUpon>FaqPropertyControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\DocumentControl.ascx.cs">
+      <DependentUpon>DocumentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\DocumentControl.ascx.designer.cs">
+      <DependentUpon>DocumentControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\DocumentPropertyControl.ascx.cs">
+      <DependentUpon>DocumentPropertyControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\DocumentPropertyControl.ascx.designer.cs">
+      <DependentUpon>DocumentPropertyControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiRatingControl.ascx.cs">
+      <DependentUpon>WikiRatingControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiRatingControl.ascx.designer.cs">
+      <DependentUpon>WikiRatingControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiRatingPropertyControl.ascx.cs">
+      <DependentUpon>WikiRatingPropertyControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiRatingPropertyControl.ascx.designer.cs">
+      <DependentUpon>WikiRatingPropertyControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\Enums.cs" />
+    <Compile Include="Utilities\HTMLHelper.cs" />
+    <Compile Include="Utilities\LocHelper.cs" />
+    <Compile Include="Utilities\Utils.cs" />
+    <Compile Include="Utilities\WikiRatingWebpartSettings.cs" />
+    <Compile Include="Utilities\WikiWebpartSettings.cs" />
+    <Compile Include="Utilities\FaqWebpartSettings.cs" />
+    <Compile Include="Utilities\DocumentWebpartSettings.cs" />
+    <Compile Include="Utilities\FieldSettings.cs" />
+    <Compile Include="Webparts\DocumentWebpart\DocumentListSelectorEditorPart.cs" />
+    <Compile Include="Webparts\DocumentWebpart\DocumentWebpart.cs" />
+    <Compile Include="Webparts\FaqWebpart\FaqListSelectorEditorPart.cs" />
+    <Compile Include="Webparts\FaqWebpart\FaqWebpart.cs" />
+    <Compile Include="Webparts\WikiRatingWebpart\WikiRatingEditorPart.cs" />
+    <Compile Include="Webparts\WikiRatingWebpart\WikiRatingWebpart.cs" />
+    <Compile Include="Webparts\WikiWebpart\WikiListSelectorEditorPart.cs" />
+    <Compile Include="Webparts\WikiWebpart\WikiWebpart.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ControlTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{69ef8b75-98f8-4a2d-aeb1-16c6875cb471}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Lernwelt.Feature\Lernwelt.Feature.feature">
+      <FeatureId>{34a05898-c2b1-4fb0-b940-857eaaecebe5}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6d7dbe0e-9436-4072-b9e2-23db9dfecbda}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{5c721b15-a378-444c-aff8-c00924fdabee}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cead7af4-95e6-43b2-8d7f-1c59b8f22bbe}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\DocumentWebpart\DocumentWebpart.webpart" />
+    <None Include="Webparts\DocumentWebpart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5e9dbea0-3ea3-4b6b-a8bd-cfa51752c04f}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\FaqWebpart\FaqWebpart.webpart" />
+    <None Include="Webparts\FaqWebpart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9fc2c9b2-bf11-46e0-a94b-8e72febc3d44}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\WikiRatingWebpart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0a30238a-d843-47be-ba3f-899847634b21}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\WikiRatingWebpart\WikiRatingWebpart.webpart" />
+    <None Include="Webparts\WikiWebpart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0153307f-3f97-48ce-b16e-50f671e9f290}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\WikiWebpart\WikiWebpart.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Lernwelt.SharePoint.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lernwelt.SharePoint.Business\Lernwelt.SharePoint.Business.csproj">
+      <Project>{563e8e21-8e90-4674-8344-72368202b9f0}</Project>
+      <Name>Lernwelt.SharePoint.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiPropertyControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\Lernwelt.SharePoint.Web\FaqControl.ascx" />
+    <Content Include="ControlTemplates\Lernwelt.SharePoint.Web\FaqPropertyControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\Lernwelt.SharePoint.Web\DocumentControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\Lernwelt.SharePoint.Web\DocumentPropertyControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiRatingControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\Lernwelt.SharePoint.Web\WikiRatingPropertyControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Features\Lernwelt.Feature\Lernwelt.Feature.Template.xml">
+      <DependentUpon>Lernwelt.Feature.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\Lernwelt.SharePoint.Web\ajaxLoading.gif" />
+    <Content Include="Layouts\Lernwelt.SharePoint.Web\jquery.min.js" />
+    <Content Include="Layouts\Lernwelt.SharePoint.Web\LernweltRatings.js" />
+    <Content Include="Layouts\Lernwelt.SharePoint.Web\RatingsEmpty.png" />
+    <Content Include="Layouts\Lernwelt.SharePoint.Web\RatingsNew.png" />
+    <Content Include="Webparts\DocumentWebpart\Elements.xml" />
+    <Content Include="Webparts\FaqWebpart\Elements.xml" />
+    <Content Include="Webparts\WikiRatingWebpart\Elements.xml" />
+    <Content Include="Webparts\WikiWebpart\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Lernwelt.SharePoint.en-US.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Lernwelt.SharePoint.de-DE.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Lernwelt.SharePoint.fr-FR.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

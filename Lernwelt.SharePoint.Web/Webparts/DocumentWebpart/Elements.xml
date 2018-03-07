@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="DocumentWebpart" List="113" Url="_catalogs/wp">
+    <File Path="DocumentWebpart\DocumentWebpart.webpart" Url="Lernwelt.SharePoint.Web_DocumentWebpart.webpart" Type="GhostableInLibrary">
+      <Property Name="Group" Value="Lernwelt" />
+    </File>
+  </Module>
+</Elements>

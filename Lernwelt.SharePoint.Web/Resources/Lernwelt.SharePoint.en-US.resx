@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Answer_Not_Found_Error" xml:space="preserve">
+    <value>The Answer field can not be empty</value>
+  </data>
+  <data name="Author_Not_Found_Error" xml:space="preserve">
+    <value>The author field can not be empty</value>
+  </data>
+  <data name="Control_Documents_Button" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Document" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_DocumentsKeyword" xml:space="preserve">
+    <value>Documents keywords</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Documenttype" xml:space="preserve">
+    <value>Documenttype</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_FileUpload" xml:space="preserve">
+    <value>File to upload</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Keywords" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_KnowledgeArea" xml:space="preserve">
+    <value>Knowledge area</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Reference" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Refresh" xml:space="preserve">
+    <value>Refresh Associated Documents</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_ShortDescription" xml:space="preserve">
+    <value>Short description</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Targetgroup" xml:space="preserve">
+    <value>Target group</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Control_Documents_No_Of_Ratings" xml:space="preserve">
+    <value>Number of ratings</value>
+  </data>
+  <data name="Control_Documents_Property_FieldsetTitle" xml:space="preserve">
+    <value>Coloumn properties</value>
+  </data>
+  <data name="Control_Documents_Property_ListTitle" xml:space="preserve">
+    <value>Avaible document library</value>
+  </data>
+  <data name="Control_Documents_Property_Title" xml:space="preserve">
+    <value>Documents settings</value>
+  </data>
+  <data name="Control_Documents_Title" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Control_Faq_FieldTitle_Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="Control_Faq_FieldTitle_FaqKeyword" xml:space="preserve">
+    <value>Faq keywords</value>
+  </data>
+  <data name="Control_Faq_FieldTitle_Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Control_Wiki_FieldTitle_FaqKeyword" xml:space="preserve">
+    <value>Wiki keywords</value>
+  </data>
+  <data name="Control_Wiki_FieldTitle_PageDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Control_Wiki_FieldTitle_PageLayout" xml:space="preserve">
+    <value>Page Layout</value>
+  </data>
+  <data name="Control_Wiki_FieldTitle_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="Control_Wiki_FieldTitle_StartPage" xml:space="preserve">
+    <value>Start Page</value>
+  </data>
+  <data name="Description_Not_Found_Error" xml:space="preserve">
+    <value>The desription can not be empty</value>
+  </data>
+  <data name="Desc_Not_Found_Error" xml:space="preserve">
+    <value>The description field can not be empty</value>
+  </data>
+  <data name="Keyword_Not_Found_Error" xml:space="preserve">
+    <value>The keywords area can not be null</value>
+  </data>
+  <data name="KnowedgeArea_Not_Found_Error" xml:space="preserve">
+    <value>The knowledge area can not be null</value>
+  </data>
+  <data name="Name_Not_Found_Error" xml:space="preserve">
+    <value>The name input field can not be empty</value>
+  </data>
+  <data name="PageTitle_Not_Found_Error" xml:space="preserve">
+    <value>The Page Title can not be empty</value>
+  </data>
+  <data name="Question_Not_Found_Error" xml:space="preserve">
+    <value>The question field can not be empty</value>
+  </data>
+  <data name="Title_Not_Found_Error" xml:space="preserve">
+    <value>The title field can not be empty</value>
+  </data>
+  <data name="Control_FAQ_FieldTitle_Refresh" xml:space="preserve">
+    <value>Refresh Associated FAQ-s</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_Link" xml:space="preserve">
+    <value>Link Field</value>
+  </data>
+  <data name="Control_Documents_FieldTitle_OpenLink" xml:space="preserve">
+    <value>Open Link</value>
+  </data>
+  <data name="Control_FAQ_Property_Title" xml:space="preserve">
+    <value>FAQ settings</value>
+  </data>
+  <data name="Control_Rating_Property_Title" xml:space="preserve">
+    <value>Rating settings</value>
+  </data>
+  <data name="Control_Wiki_FieldTitle_EntryLimit" xml:space="preserve">
+    <value>Entry limit</value>
+  </data>
+  <data name="Control_WIKI_Property_Title" xml:space="preserve">
+    <value>Wiki settings</value>
+  </data>
+  <data name="Link_Title" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Rating_Title" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="Control_PageLink" xml:space="preserve">
+    <value>Page Link column</value>
+  </data>
+</root>

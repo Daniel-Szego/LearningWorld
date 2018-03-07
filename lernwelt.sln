@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lernwelt.SharePoint.Web", "Lernwelt.SharePoint.Web\Lernwelt.SharePoint.Web.csproj", "{4081E8B3-34CA-448B-85F2-43E258A2DE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lernwelt.SharePoint.Business", "Lernwelt.SharePoint.Business\Lernwelt.SharePoint.Business.csproj", "{563E8E21-8E90-4674-8344-72368202B9F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{177497D6-FD82-4501-854C-7603907FE8BF}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\Microsoft.Office.Server.dll = Dlls\Microsoft.Office.Server.dll
+		Dlls\Microsoft.Office.Server.UserProfiles.dll = Dlls\Microsoft.Office.Server.UserProfiles.dll
+		Dlls\Microsoft.SharePoint.dll = Dlls\Microsoft.SharePoint.dll
+		Dlls\Microsoft.SharePoint.Publishing.dll = Dlls\Microsoft.SharePoint.Publishing.dll
+		Dlls\Microsoft.SharePoint.Taxonomy.dll = Dlls\Microsoft.SharePoint.Taxonomy.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4081E8B3-34CA-448B-85F2-43E258A2DE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4081E8B3-34CA-448B-85F2-43E258A2DE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4081E8B3-34CA-448B-85F2-43E258A2DE22}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4081E8B3-34CA-448B-85F2-43E258A2DE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4081E8B3-34CA-448B-85F2-43E258A2DE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4081E8B3-34CA-448B-85F2-43E258A2DE22}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{563E8E21-8E90-4674-8344-72368202B9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563E8E21-8E90-4674-8344-72368202B9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563E8E21-8E90-4674-8344-72368202B9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563E8E21-8E90-4674-8344-72368202B9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

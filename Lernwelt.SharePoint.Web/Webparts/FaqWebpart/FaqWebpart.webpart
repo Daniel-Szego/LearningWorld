@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Lernwelt.SharePoint.Web.Webparts.FaqWebpart.FaqWebpart, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Lernwelt.SharePoint.Web - FaqWebpart</property>
+        <property name="Description" type="string">Multilingual FAQ webpart for Lernwelt</property>
+        <property name="Group" type="string">Lernwelt</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

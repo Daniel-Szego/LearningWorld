@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5c721b15-a378-444c-aff8-c00924fdabee" solutionId="5c721b15-a378-444c-aff8-c00924fdabee" resetWebServer="false" name="Lernwelt.SharePoint.Web" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="MB.Kion.Lernwelt.SharePoint.Business.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\MB.Kion.Lernwelt.SharePoint.Business\Lernwelt.SharePoint.Business.csproj">
+      <safeControls>
+        <safeControl assemblyName="MB.Kion.Lernwelt.SharePoint.Business.dll" namespaceName="MB.Kion.Lernwelt.SharePoint.Business" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="34a05898-c2b1-4fb0-b940-857eaaecebe5" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="69ef8b75-98f8-4a2d-aeb1-16c6875cb471" />
+    <projectItemReference itemId="6d7dbe0e-9436-4072-b9e2-23db9dfecbda" />
+    <projectItemReference itemId="cead7af4-95e6-43b2-8d7f-1c59b8f22bbe" />
+  </projectItems>
+</package>
